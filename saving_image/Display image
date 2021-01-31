@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+imgplot = plt.imshow(img_rescaled)
+plt.show()
+
+to save with mat
+plt.savefig('noisy2')
+
+to save image with scikit
+from skimage import io
+io.imsave('noisy3.jpg', gaussian_using_skimage)
